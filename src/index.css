@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", SFMono-Regular, monospace;
+
+  /* Custom classic Maroon and Cream palette - True Sophisticated Editorial Dark Edit */
+  --color-cream-light: #FCFBF7;
+  --color-cream-base: #EBE3D0;
+  --color-cream-dark: #A89B82;
+  --color-maroon-light: #942031;
+  --color-maroon-base: #3E0911;
+  --color-maroon-dark: #1A0306;
+}
+
+/* Custom minimal scrollbar classes */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
